@@ -11,9 +11,10 @@ spring:
       ddl-auto: update
     show-sql: true
   datasource:
-    url: jdbc:mysql://host.docker.internal:49153/service-treatment
+    #url: jdbc:mysql://host.docker.internal:49153/service-treatment
+    url: jdbc:mysql://localhost:3306/service-dentist
     username: root
-    password: mysqlpw
+    password: mysqladmin
     driverClassName: com.mysql.jdbc.Driver
 welcome:
   message: Welcome to Treatment on Dev Environment
