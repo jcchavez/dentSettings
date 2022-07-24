@@ -8,7 +8,7 @@ server:
 spring:
   datasource:
     #url: jdbc:mysql://host.docker.internal:49153/service-invoice
-    url: jdbc:mysql://localhost:3306/service-dentist
+    url: jdbc:mysql://localhost:3306/service-invoice
     username: root
     password: mysqladmin
     driverClassName: com.mysql.jdbc.Driver
